@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi niña especial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77);
+            color: #d4e5f0;
+            overflow-x: hidden;
+            position: relative;
+            min-height: 100vh;
+            transition: background 1s ease;
+        }
+
+        h1 {
+            color: #87CEFA;
+            font-size: 3.5em;
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            text-shadow: 0 0 15px rgba(135, 206, 250, 0.8);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .photo {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 12px;
+            background: url('https://via.placeholder.com/400') center center/cover no-repeat;
+            height: 300px;
+            opacity: 0.9;
+            transition: opacity 0.5s ease;
+        }
+
+        .photo:hover {
+            opacity: 1;
+        }
+
+        .text {
+            flex: 2;
+            margin-left: 20px;
+            padding: 30px;
+            font-size: 1.5em;
+            color: #d4e5f0;
+            line-height: 1.8;
+            text-align: center;
+            position: relative;
+            background: rgba(0, 30, 60, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            font-family: 'Georgia', serif;
+            border: 4px solid #87CEFA; /* Border azul claro brillante */
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.4em;
+            color: #f7c5d4;
+            text-align: center;
+            margin: 20px 0;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #5a91c8;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #87CEEB;
+            transform: translateY(-5px);
+        }
+
+        .background-heart, .background-cat, .background-jellyfish {
+            position: absolute;
+            font-size: 2em;
+            opacity: 0.7;
+            animation: float 15s infinite linear;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(-100vh); }
+            100% { transform: translateY(100vh); }
+        }
+
+        .background-heart { color: rgba(250, 128, 114, 0.5); animation-duration: 12s; left: 20%; }
+        .background-cat { color: rgba(255, 255, 255, 0.4); animation-duration: 16s; left: 40%; }
+        .background-jellyfish { color: rgba(135, 206, 250, 0.5); animation-duration: 18s; left: 70%; }
+
+        .extended-text-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .extended-text {
+            font-size: 1.5em;
+            line-height: 1.8;
+            color: #d4e5f0;
+            background: rgba(0, 30, 60, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            font-family: 'Georgia', serif;
+            border: 4px solid #87CEFA; /* Border azul claro brillante */
+        }
+
+        .cat-paw {
+            position: absolute;
+            font-size: 3em;
+            animation: float 15s infinite linear;
+            opacity: 0.7;
+        }
+
+        .cat-paw:nth-child(1) { left: 10%; }
+        .cat-paw:nth-child(2) { left: 30%; }
+        .cat-paw:nth-child(3) { left: 50%; }
+        .cat-paw:nth-child(4) { left: 70%; }
+        .cat-paw:nth-child(5) { left: 90%; }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mp3">
+    </audio>
+    
+    <h1>Para mi niña especial</h1>
+
+    <div class="container">
+        <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqWV4GZqu5ZBZmtkYkQaoCMRnbbZCqeizbQ&s" alt="Imagen especial" style="width: 100%; height: auto; border-radius: 12px;">
+        </div>
+        <div class="text">
+            <p>Mi amor, cada vez que veo tu hermosa sonrisa, siento como si estuviera observando la elegancia de una rosa al amanecer.</p>
+            <p>Tu presencia me envuelve como el suave movimiento de una medusa en el océano, hipnotizante y única.</p>
+            <p>Mi mayor deseo es que esos ojos brillen como las estrellas en el cielo más profundo, ese azul que tanto amas y que me hace perderme.</p>
+            <p>Elizabeth, cada día me enseñas que el amor no solo se siente, sino que se vive en cada detalle, como los maullidos de un gato que encuentra consuelo en su hogar.</p>
+        </div>
+    </div>
+
+    <div class="quote-container">
+        <div class="quote">
+            "Eres mi rosa azul, mi amor eterno"
+        </div>
+    </div>
+
+    <span class="background-heart">❤</span>
+    <span class="background-cat">🐾</span>
+    <span class="background-jellyfish">🌊</span>
+
+    <div class="cat-paw">🐾</div>
+    <div class="cat-paw">🐾</div>
+    <div class="cat-paw">🐾</div>
+    <div class="cat-paw">🐾</div>
+    <div class="cat-paw">🐾</div>
+
+    <div class="extended-text-container">
+        <div class="extended-text">
+            <p>Me encantas, como no tienes una mínima idea Elizabeth, me encanta tu nombre que con solo escuchar su mención, con que solo la voz de mi mente diga ese nombre, mi corazón se llena de amor.</p>
+            <p>Tu voz tan hermosa y delicada que hace que los relatos de los cánticos angelicales palidezcan ante la dulzura de tu voz que me llena de sentimiento el alma.</p>
+            <p>Me encanta lo claro que tienes tus metas, me encanta tu forma de pensar, me encanta tu madurez emocional y cómo siempre tratas de hacer lo mejor para los dos.</p>
+            <p>Me encantas Elizabeth, me encanta tu pelo, tu cara, tu risa, tus ojos, tu boca, me encanta tu corazón, tu alma, tu forma de amar. Me encantas tú, mi niña, como haces que me sienta, como haces que se me suba el autoestima, como haces que todo lo que piense sea en ti, mi amor.</p>
+        </div>
+    </div>
+
+    <img src="https://i.pinimg.com/736x/cb/7c/c5/cb7cc507684a71616bb81cebc0971968.jpg" alt="Imagen especial" style="width: 100%; max-width: 800px; display: block; margin: 40px auto; border-radius: 12px;">
+
+    <div style="text-align: center; margin-top: 40px;">
+        <a href="https://drive.google.com/file/d/1quFHbTij3FENpMhinhKgdHMdrWl60J5t/view?usp=drivesdk" class="cta-button" target="_blank">Para mi eli</a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
